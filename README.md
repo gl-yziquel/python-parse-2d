@@ -1,3 +1,5 @@
+Maintenance: You may now build this package with `python -m build --wheel` in a conventional manner, compared to upstream. You may also generate the documentation with `pdoc --output-dir docs parse_2d`. The tests are supposed to be run with `unittest` and may be run with `python -m unittest discover -s tests --verbose`. Or you can test more specifically with invocations such as `python -m unittest tests/tokens/test_box_tokenizer.py --verbose`.
+
 # parse_2d
 
 Tools for parsing two-dimensional programming languages.

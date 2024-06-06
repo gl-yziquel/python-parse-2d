@@ -6,7 +6,7 @@ from pathlib import Path
 from setuptools import find_packages, setup
 from setuptools.command.install import install
 
-project_root = Path(__file__).parents[1]
+project_root = Path(__file__).parents[0]
 
 
 class VerifyCommand(install):
